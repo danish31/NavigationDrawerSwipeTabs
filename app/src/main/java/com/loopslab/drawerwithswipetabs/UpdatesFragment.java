@@ -1,4 +1,4 @@
-package com.androidbelieve.drawerwithswipetabs;
+package com.loopslab.drawerwithswipetabs;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
