@@ -4,17 +4,24 @@
 
     <application
         android:allowBackup="true"
+        android:hardwareAccelerated="false"
+
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.loopslab.drawerwithswipetabs.MainActivity"
             android:label="@string/app_name" >
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+        </activity>
+        <activity android:name=".Codejam">
+
         </activity>
     </application>
 

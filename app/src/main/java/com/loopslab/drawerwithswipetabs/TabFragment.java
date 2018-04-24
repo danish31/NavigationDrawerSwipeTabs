@@ -89,11 +89,11 @@ public class TabFragment extends Fragment {
 
             switch (position){
                 case 0 :
-                    return "Primary";
+                    return "DAY1";
                 case 1 :
-                    return "Social";
+                    return "DAY2";
                 case 2 :
-                    return "Updates";
+                    return "DAY3";
             }
                 return null;
         }
